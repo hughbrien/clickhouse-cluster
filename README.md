@@ -27,4 +27,11 @@ containers:
             - '--kubelet-preferred-address-types=InternalIP'
 ```
 
+
+### Print out Events
+```
+kubectl get events --watch --all-namespaces -o json >> events.json.log 
+```
+
+
   
